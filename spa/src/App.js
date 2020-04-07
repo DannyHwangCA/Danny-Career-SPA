@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-import './nav.js';
 
 class App extends React.Component {
   render () {
@@ -11,7 +10,6 @@ class App extends React.Component {
         <div className="master-inner-div">
           <div className="left-outer-container">
             <div className="left-inner-container">
-              <Test />
             </div>
           </div>
           <div className="right-outer-container">

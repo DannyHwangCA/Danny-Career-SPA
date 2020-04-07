@@ -11,7 +11,7 @@ class Nav extends React.Component {
             <div className="nav-container">
                 <div className="single-nav-icon">
                     <FontAwesomeIcon icon={faUserCircle} />
-                    <h3>Contact Me</h3>
+                    <h3>Contacts</h3>
                 </div>
                 <div className="single-nav-icon">
                     <FontAwesomeIcon icon={faTasks} />

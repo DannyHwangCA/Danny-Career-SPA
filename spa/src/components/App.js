@@ -1,15 +1,17 @@
 import React from 'react';
 import '../css/App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import Nav from './nav';
 
 class App extends React.Component {
+
   render () {
+
     return (
       <div className="master-outer-div">
         <div className="master-inner-div">
           <div className="left-outer-container">
             <div className="left-inner-container">
+              <Nav />
             </div>
           </div>
           <div className="right-outer-container">

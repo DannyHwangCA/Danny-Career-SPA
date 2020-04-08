@@ -5,7 +5,7 @@ import { faHSquare, faClipboardCheck, faIdBadge, faMobileAlt } from '@fortawesom
 
 class Nav extends React.Component {
 
-    render() {
+    render () {
         return (
             
             <div className="nav-container">

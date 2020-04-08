@@ -1,10 +1,11 @@
 import React from 'react';
 import '../css/App.css';
 import Nav from './nav';
+import Home from './home';
 
 class App extends React.Component {
 
-  render () {
+  render() {
 
     return (
       <div className="master-outer-div">
@@ -16,7 +17,7 @@ class App extends React.Component {
           </div>
           <div className="right-outer-container">
             <div className="right-inner-container">
-
+              <Home />
             </div>
           </div>
         </div>

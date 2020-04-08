@@ -54,11 +54,27 @@
 .single-nav-icon svg {
   font-size: 2em;
   color: #3b5998;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.single-nav-icon:hover svg {
+  color: #8b9dc3;
+}
+
+.single-nav-icon:hover h3 {
+  color: #8b9dc3;
 }
 
 .single-nav-icon h3 {
   color: #3b5998;
   margin-top: 0px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .right-outer-container {

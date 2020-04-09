@@ -4,6 +4,12 @@ import Nav from './Nav';
 import Home from './Home';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      home: true
+    }
+  }
 
   render() {
 
@@ -17,7 +23,7 @@ class App extends React.Component {
           </div>
           <div className="right-outer-container">
             <div className="right-inner-container">
-              <Home />
+              {this.state.home ? <Home /> : null}
             </div>
           </div>
         </div>

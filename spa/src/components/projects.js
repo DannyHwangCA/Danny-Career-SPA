@@ -2,7 +2,13 @@ import React from 'react';
 
 class Projects extends React.Component {
     render() {
-        return
+        return(
+            <div>
+                <p>
+                    Projects Page
+                </p>
+            </div>
+        )
     }
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/App.css';
-import Nav from './nav';
-import Home from './home';
+import Nav from './Nav';
+import Home from './Home';
 
 class App extends React.Component {
 

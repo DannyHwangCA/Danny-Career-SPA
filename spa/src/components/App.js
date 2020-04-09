@@ -13,9 +13,30 @@ class App extends React.Component {
       home: true,
       projects: false,
       about: false,
-      contacct: false
+      contact: false
     }
+    this.renderHome = this.renderHome.bind(this);
+    this.renderProject = this.renderProject.bind(this);
+    this.renderAbout = this.renderAbout.bind(this);
+    this.renderContact = this.renderContact.bind(this);
   }
+
+  renderHome() {
+    this.setState({home: true, projects: false, about: false, contact: false})
+  }
+
+  renderProject() {
+    this.setState({home: false, projects: true, about: false, contact: false})
+  }
+
+  renderAbout() {
+    this.setState({home: false, projects: false, about: true, contact: false})
+  }
+
+  renderContact() {
+    this.setState({home: false, projects: false, about: false, contact: true})
+  }
+
 
   render() {
 
@@ -24,7 +45,12 @@ class App extends React.Component {
         <div className="master-inner-div">
           <div className="left-outer-container">
             <div className="left-inner-container">
-              <Nav />
+              <Nav 
+                renderHome={this.renderHome} 
+                renderProject={this.renderProject}
+                renderAbout={this.renderAbout}
+                renderContact={this.renderContact}
+              />
             </div>
           </div>
           <div className="right-outer-container">

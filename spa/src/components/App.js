@@ -13,12 +13,26 @@ class App extends React.Component {
       home: true,
       projects: false,
       about: false,
-      contact: false
+      contact: false,
+      projectArray: []
     }
     this.renderHome = this.renderHome.bind(this);
     this.renderProject = this.renderProject.bind(this);
     this.renderAbout = this.renderAbout.bind(this);
     this.renderContact = this.renderContact.bind(this);
+  }
+  
+  componentDidMount() {
+    fetch('./projects.json')
+      .then(response => response.json())
+      .then(result => {
+        const projects = result.map(item => {
+          return item;
+        })
+        this.setState({
+          projectArray: projects
+        });
+      })    
   }
 
   renderHome() {
@@ -37,9 +51,7 @@ class App extends React.Component {
     this.setState({home: false, projects: false, about: false, contact: true})
   }
 
-
   render() {
-
     return (
       <div className="master-outer-div">
         <div className="master-inner-div">
@@ -56,7 +68,7 @@ class App extends React.Component {
           <div className="right-outer-container">
             <div className="right-inner-container">
               {this.state.home ? <Home /> : null}
-              {this.state.projects ? <Projects /> : null}
+              {this.state.projects ? <Projects projects={this.state.projectArray}/> : null}
               {this.state.about ? <About /> : null}
               {this.state.contact ? <Contact /> : null}
             </div>

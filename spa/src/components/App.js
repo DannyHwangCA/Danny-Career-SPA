@@ -79,7 +79,7 @@ class App extends React.Component {
               {this.state.projects ? <Projects projects={this.state.projectArray}/> : null}
               {this.state.about ? <About /> : null}
               {this.state.contact ? <Contact /> : null}
-              {this.state.contact ? <Webpage /> : null}
+              {this.state.webpage ? <Webpage /> : null}
             </div>
           </div>
         </div>

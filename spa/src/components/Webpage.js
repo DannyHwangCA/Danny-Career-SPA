@@ -2,7 +2,11 @@ import React from 'react';
 
 class Webpage extends React.Component {
     render() {
-        return
+        return(
+            <div>
+                Webpage
+            </div>
+        )
     }
 }
 

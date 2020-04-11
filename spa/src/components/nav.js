@@ -19,7 +19,7 @@ class Nav extends React.Component {
                 </div>
                 <div onClick={this.props.renderWebpage} className="single-nav-icon contact-icon">
                     <FontAwesomeIcon icon={faClipboardList} />
-                    <h3>About SPA</h3>
+                    <h3>SPA Info</h3>
                 </div>
                 <div onClick={this.props.renderAbout} className="single-nav-icon about-icon">
                     <FontAwesomeIcon icon={faIdBadge} />

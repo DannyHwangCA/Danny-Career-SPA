@@ -11,7 +11,8 @@ class Home extends React.Component {
             
                 <h3>About this site.</h3>
                 <p>I built this responsive SPA using React.JS and served it over AWS using amplify.</p>
-                <p>Each button renders a separate Component within this main container and uses multiple states and props to affect changes across the page.</p>
+                <p>Each nav button renders a separate Component within this main container and uses multiple states and props to affect changes across the page.</p>
+                <p>Click on the "SPA INFO" in the nav bar for more information.</p>
             </div>
 
             <div className="outer-library-container">

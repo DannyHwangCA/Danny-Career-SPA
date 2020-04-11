@@ -5,6 +5,7 @@ import Home from './Home';
 import Contact from './Contact';
 import Projects from './Projects';
 import About from './About';
+import Webpage from './Webpage';
 
 class App extends React.Component {
   constructor(props) {
@@ -14,12 +15,14 @@ class App extends React.Component {
       projects: false,
       about: false,
       contact: false,
+      webpage: false,
       projectArray: []
     }
     this.renderHome = this.renderHome.bind(this);
     this.renderProject = this.renderProject.bind(this);
     this.renderAbout = this.renderAbout.bind(this);
     this.renderContact = this.renderContact.bind(this);
+    this.renderWebpage = this.renderWebpage.bind(this);
   }
   
   componentDidMount() {
@@ -36,19 +39,23 @@ class App extends React.Component {
   }
 
   renderHome() {
-    this.setState({home: true, projects: false, about: false, contact: false})
+    this.setState({home: true, projects: false, about: false, contact: false, webpage: false})
   }
 
   renderProject() {
-    this.setState({home: false, projects: true, about: false, contact: false})
+    this.setState({home: false, projects: true, about: false, contact: false, webpage: false})
   }
 
   renderAbout() {
-    this.setState({home: false, projects: false, about: true, contact: false})
+    this.setState({home: false, projects: false, about: true, contact: false, webpage: false})
   }
 
   renderContact() {
-    this.setState({home: false, projects: false, about: false, contact: true})
+    this.setState({home: false, projects: false, about: false, contact: true, webpage: false})
+  }
+
+  renderWebpage() {
+    this.setState({home: false, projects: false, about: false, contact: false, webpage: true})
   }
 
   render() {
@@ -62,6 +69,7 @@ class App extends React.Component {
                 renderProject={this.renderProject}
                 renderAbout={this.renderAbout}
                 renderContact={this.renderContact}
+                renderWebpage={this.renderWebpage}
               />
             </div>
           </div>
@@ -71,6 +79,7 @@ class App extends React.Component {
               {this.state.projects ? <Projects projects={this.state.projectArray}/> : null}
               {this.state.about ? <About /> : null}
               {this.state.contact ? <Contact /> : null}
+              {this.state.contact ? <Webpage /> : null}
             </div>
           </div>
         </div>

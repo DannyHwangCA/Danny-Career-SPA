@@ -15,11 +15,16 @@ class Projects extends React.Component {
         return(
             <div className="outer-main-container">
                 <div className="inner-main-container">
-                    <div>
+                    <div className="main-container">
                         <h2>
                             Projects and Pens
                         </h2>
-                        <h3>Below is a list of my projects and codepens. This is meant as an example archive of my code. Please feel free to look through them! </h3>
+                        <p>Below is a list of my projects and codepens.
+                            <br />
+                            This is meant as an example archive of my code. 
+                            <br />
+                            Please feel free to look through them! 
+                        </p>
                     </div>
                     <div>
                         {projectItems}

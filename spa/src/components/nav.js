@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHSquare, faClipboardCheck, faIdBadge, faMobileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faHSquare, faClipboardCheck, faIdBadge, faMobileAlt, faClipboardList } from '@fortawesome/free-solid-svg-icons';
 
 
 class Nav extends React.Component {
@@ -17,6 +17,10 @@ class Nav extends React.Component {
                     <FontAwesomeIcon icon={faClipboardCheck} />
                     <h3>Projects</h3>
                 </div>
+                <div onClick={this.props.renderWebpage} className="single-nav-icon contact-icon">
+                    <FontAwesomeIcon icon={faClipboardList} />
+                    <h3>About SPA</h3>
+                </div>
                 <div onClick={this.props.renderAbout} className="single-nav-icon about-icon">
                     <FontAwesomeIcon icon={faIdBadge} />
                     <h3>About Me</h3>
@@ -25,6 +29,7 @@ class Nav extends React.Component {
                     <FontAwesomeIcon icon={faMobileAlt} />
                     <h3>Contact Me</h3>
                 </div>
+                
             </div>
         )
     }

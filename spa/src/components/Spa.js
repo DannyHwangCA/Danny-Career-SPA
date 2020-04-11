@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Webpage extends React.Component {
+class Spa extends React.Component {
     render() {
         return(
             <div>
@@ -10,4 +10,4 @@ class Webpage extends React.Component {
     }
 }
 
-export default Webpage;
+export default Spa;

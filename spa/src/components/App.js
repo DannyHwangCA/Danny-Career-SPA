@@ -5,7 +5,7 @@ import Home from './Home';
 import Contact from './Contact';
 import Projects from './Projects';
 import About from './About';
-import Webpage from './Webpage';
+import Spa from './Spa';
 
 class App extends React.Component {
   constructor(props) {
@@ -79,7 +79,7 @@ class App extends React.Component {
               {this.state.projects ? <Projects projects={this.state.projectArray}/> : null}
               {this.state.about ? <About /> : null}
               {this.state.contact ? <Contact /> : null}
-              {this.state.webpage ? <Webpage /> : null}
+              {this.state.webpage ? <Spa /> : null}
             </div>
           </div>
         </div>

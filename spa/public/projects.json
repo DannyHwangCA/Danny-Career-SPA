@@ -4,6 +4,38 @@
         "subtitle": "Props, State, Event Handling",
         "link" : "https://codepen.io/dannyhwangca/full/VwLOqya",
         "image" : "project-svg.png",
+        "description" : "A React project that uses value from an input to pass information between states & props.",
+        "type" : "Codepen"
+    },
+    {
+        "title": "Vue JS Text Search ",
+        "subtitle": "V-model, V-for, Filter",
+        "link" : "https://codepen.io/dannyhwangca/full/LYVadRo",
+        "image" : "project-search.png",
+        "description" : "A Vue JS searchbar that uses v-model to filter title and description text on key press.",
+        "type" : "Codepen"
+    },
+    {
+        "title": "Sort, Drag, & Tag List",
+        "subtitle": "JQuery, CSS3",
+        "link" : "https://codepen.io/dannyhwangca/full/MvNwbP",
+        "image" : "project-sort.png",
+        "description" : "A Sortable, Draggable, & Taggable list using JQuery, JQuery UI, and CSS3.",
+        "type" : "Codepen"
+    },
+    {
+        "title": "React Customize SVG",
+        "subtitle": "Props, State, Event Handling",
+        "link" : "https://codepen.io/dannyhwangca/full/VwLOqya",
+        "image" : "project-svg.png",
+        "description" : "A React project that uses value from an input to pass information between states & props to create changes to an SVG.",
+        "type" : "Codepen"
+    },
+    {
+        "title": "React Customize SVG",
+        "subtitle": "Props, State, Event Handling",
+        "link" : "https://codepen.io/dannyhwangca/full/VwLOqya",
+        "image" : "project-svg.png",
         "description" : "A React project that uses value from an input to pass information between states & props to create changes to an SVG.",
         "type" : "Codepen"
     }

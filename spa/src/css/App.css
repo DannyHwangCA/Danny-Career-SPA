@@ -13,13 +13,14 @@
 
 .master-inner-div {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0px 25px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 15px 0px;
 }
 
 .left-outer-container {
@@ -85,7 +86,6 @@
 
 .right-inner-container {
   width: 100%;
-  padding: 15px;
 }
 
 .home-intro {
@@ -155,13 +155,17 @@
   width: 49%;
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
   padding: 55px 15px 15px 15px;
   border: 1px solid #3b5998;
   border-radius: 5px;
   margin-bottom: 15px; 
+}
+
+.project-item p {
+  margin-bottom: 0px;
 }
 
 .project-type-container {
@@ -205,6 +209,8 @@
 
 .project-image img {
   width: 100%;
+  border: 1px solid #3b5998;
+  border-radius: 5px;
 }
 
 .project-description {

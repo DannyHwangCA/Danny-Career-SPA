@@ -2,8 +2,8 @@ import React from 'react';
 
 class Projects extends React.Component {
     render() {
-        const projectItems = this.props.projects.map(item => (
-            <div className="project-item">
+        const projectItems = this.props.projects.map((item, index) => (
+            <div className="project-item" key={index}>
                 <div className="project-type">
                     <div className={item.type}>
                         <h3>

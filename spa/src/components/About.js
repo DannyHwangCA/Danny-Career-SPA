@@ -1,10 +1,16 @@
 import React from 'react';
+import profilePicture from '../images/profile-image.jpg';
 
 class About extends React.Component {
     render() {
         return(
-            <div>
-                <p>About Page</p>
+            <div className="about-container">
+                <div className="left-about-container">
+                    <img src={profilePicture} alt="profile-image" />
+                </div>
+                <div className="right-about-container">
+
+                </div>
             </div>
         )
     }

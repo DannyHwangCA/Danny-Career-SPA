@@ -232,6 +232,28 @@
   margin: 0px;
 }
 
+.about-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left-about-container {
+  width: 23%;
+  margin-right: 2%;
+}
+
+.left-about-container img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.right-about-container {
+  width: 75%;
+}
+
 
 @media all and (max-width: 768px) {
   .master-inner-div {

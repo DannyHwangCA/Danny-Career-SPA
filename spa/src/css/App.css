@@ -217,6 +217,19 @@
   width: 100%;
 }
 
+.main-container {
+  width: 100%;
+  border: 1px solid #3b5998;
+  padding: 15px;
+}
+
+.main-container h2 {
+  margin: 0px;
+}
+
+.main-container h3 {
+  margin: 0px;
+}
 
 
 @media all and (max-width: 768px) {

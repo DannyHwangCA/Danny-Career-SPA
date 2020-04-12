@@ -6,7 +6,7 @@ class Spa extends React.Component {
             <div className="main-container">
                 <h2>About SPA</h2>
                 <h4>
-                    This SPA renders a single unique component for each Nav topic. Below notates some tech stacks used.
+                    This SPA renders a single unique component for each Nav topic. Below notes some techniques used.
                 </h4>
                 <p>
                     <b>

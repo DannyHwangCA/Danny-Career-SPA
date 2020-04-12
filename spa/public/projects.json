@@ -1,10 +1,10 @@
 [
     {
-        "title": "test",
-        "date" : "date",
-        "link" : "link",
+        "title": "React Customize SVG",
+        "subtitle": "Props, State, Event Handling",
+        "link" : "https://codepen.io/dannyhwangca/full/VwLOqya",
         "image" : "image",
-        "description" : "description",
-        "type" : "codepen"
+        "description" : "A React project that uses value from an input to pass information between states & props to create changes to an SVG.",
+        "type" : "Codepen"
     }
 ]

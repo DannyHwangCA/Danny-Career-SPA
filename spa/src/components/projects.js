@@ -13,7 +13,7 @@ class Projects extends React.Component {
                 </div>
                 <div className="project-image">
                     <a href={item.link} target="_blank">
-                        <img src={item.image}/>
+                        <img src={require('../images/'+item.image)}/>
                     </a>
                 </div>
                 <div className="project-title">
@@ -37,7 +37,7 @@ class Projects extends React.Component {
                         This Component archives my Projects that highlight different concepts in Frontend Engineering and Web Development. Please feel free to look through them!
                         <br/><br/>
                         <b>Codepen:</b><a href="https://codepen.io/dannyhwangca" target="_blank">https://codepen.io/dannyhwangca</a>
-                        <br/><br/>
+                        <br/>
                         <b>Github:</b><a href="https://github.com/DannyHwangCA" target="_blank">https://github.com/DannyHwangCA</a> 
                     </p>
                 </div>

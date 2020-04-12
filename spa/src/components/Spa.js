@@ -18,13 +18,10 @@ class Spa extends React.Component {
                             Each Nav button uses an imported FontAwesome SVG and CSS3 hover and transition effect.
                     </li>
                     <li>
-                            Each nav button uses an onClick event passed from state to props that "setState" a unqiue state object as true or false.                           
+                            Each nav button uses an onClick event passed from state to props that "setState" a unqiue state object.                           
                     </li>
                     <li>
-                            A simple ternary is used to determine if the component is rendered or not rendered based on the onClick event fired.
-                    </li>
-                    <li>
-                            The state change causes a rerender of the appropriate component inside the container.
+                            A simple ternary is used to determine if the component is rendered or not rendered.
                     </li>
                 </ul>
                 <p>
@@ -34,7 +31,7 @@ class Spa extends React.Component {
                 </p>
                 <ul>
                     <li>
-                        Fecthes a projects.json that is processed into an array as state.projectArray.
+                        Fetches a projects.json that is processed into an array as state.projectArray.
                     </li>
                     <li>
                         projectArray state is passed as a prop and processed into projects list using map.

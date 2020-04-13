@@ -13,6 +13,7 @@ class App extends React.Component {
     this.state = {
       home: true,
       projects: false,
+      align: "center",
       about: false,
       contact: false,
       webpage: false,
@@ -39,29 +40,29 @@ class App extends React.Component {
   }
 
   renderHome() {
-    this.setState({home: true, projects: false, about: false, contact: false, webpage: false})
+    this.setState({home: true, projects: false, about: false, contact: false, webpage: false, align: "center"})
   }
 
   renderProject() {
-    this.setState({home: false, projects: true, about: false, contact: false, webpage: false})
+    this.setState({home: false, projects: true, about: false, contact: false, webpage: false, align: "flex-start"})
   }
 
   renderAbout() {
-    this.setState({home: false, projects: false, about: true, contact: false, webpage: false})
+    this.setState({home: false, projects: false, about: true, contact: false, webpage: false, align: "center"})
   }
 
   renderContact() {
-    this.setState({home: false, projects: false, about: false, contact: true, webpage: false})
+    this.setState({home: false, projects: false, about: false, contact: true, webpage: false, align: "center"})
   }
 
   renderWebpage() {
-    this.setState({home: false, projects: false, about: false, contact: false, webpage: true})
+    this.setState({home: false, projects: false, about: false, contact: false, webpage: true, align: "center"})
   }
 
   render() {
     return (
       <div className="master-outer-div">
-        <div className="master-inner-div">
+        <div className="master-inner-div" style={{"align-items": this.state.align}}>
           <div className="left-outer-container">
             <div className="left-inner-container">
               <Nav 

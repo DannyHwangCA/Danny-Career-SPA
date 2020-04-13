@@ -36,7 +36,7 @@ class Projects extends React.Component {
                     <p>
                         This Component showcases some Projects that highlight different concepts in Frontend Engineering and Web Development. Please feel free to look through them!
                         <br/><br/>
-                        There are more in the following links:
+                        More Projects found at:
                         <br/><br/>
                         <b>Codepen: </b><a href="https://codepen.io/dannyhwangca" target="_blank">https://codepen.io/dannyhwangca</a>
                         <br/>

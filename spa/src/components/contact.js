@@ -17,7 +17,7 @@ class Contact extends React.Component {
                     <br/><br/>
                     <b>Resume (updated April 2020): </b><a href={resume} target="_blank" download>Download Here</a>
                     <br/><br/>
-                    <b>Project Links</b>
+                    <b>Links</b>
                     <br/>
                     <b>Linkedin: </b><a href="https://www.linkedin.com/in/dannyhwangca/" target="_blank">https://www.linkedin.com/in/dannyhwangca/</a> 
                     <br/>

@@ -19,8 +19,8 @@ class Home extends React.Component {
                         <ul>
                             <li>React</li>
                             <li>Animate.css</li>
-                            <li>Webpack</li>
-                            <li>Babel</li>
+                            <li>AWS Amplify</li>
+                            <li>Babel & Webpack</li>
                         </ul>
                     </div>
                     <div className="library-container">

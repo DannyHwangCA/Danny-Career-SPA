@@ -42,22 +42,15 @@ class Spa extends React.Component {
                 </ul>
                 <p>
                     <b>
-                        About
+                        About & Contact
                     </b>
                 </p>
                 <ul>
                     <li>
-                        Used Flexbox positioning to make responsive dual containers.
+                        Uses Flexbox positioning to make responsive dual containers.
                     </li>
-                </ul>
-                <p>
-                    <b>
-                        Contact
-                    </b>
-                </p>
-                <ul>
                     <li>
-                        Imported FontAwesome Brand SVGs and files into flexbox responsive containers.
+                        Imports FontAwesome Brand SVGs and files into flexbox responsive containers.
                     </li>
                 </ul>
             </div>

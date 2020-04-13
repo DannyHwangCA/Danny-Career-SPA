@@ -57,10 +57,10 @@
 .single-nav-icon svg {
   font-size: 2em;
   color: #3b5998;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .single-nav-icon:hover svg {
@@ -74,10 +74,10 @@
 .single-nav-icon h3 {
   color: #3b5998;
   margin: 0px;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .right-outer-container {
@@ -315,19 +315,32 @@
 .left-contact-container-icon svg {
   font-size: 4em;
   color: #3b5998;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .left-contact-container-icon:hover svg {
   color: #8b9dc3;
 }
 
+.left-contact-container-icon:hover a {
+  color: #8b9dc3;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
 .left-contact-container-icon h3 {
   margin-top: 10px;
   margin-bottom: 0px;
+}
+
+.left-contact-container-icon a {
+  color: #3b5998;
+  text-decoration: none;
 }
 
 .bottom-left-icon-adjust {
@@ -342,14 +355,16 @@
   margin-bottom: 0px;
 }
 
+.right-contact-container-icon a {
+  color: #3b5998;
+  text-decoration: none;
+}
+
 @media all and (max-width: 768px) {
   .master-inner-div {
     padding: 25px;
   }
   .home-intro {
-    margin-top: 15px;
-  }
-  .project-summary-container {
     margin-top: 15px;
   }
   .project-item  {

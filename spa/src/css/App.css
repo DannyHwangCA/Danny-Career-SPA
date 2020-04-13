@@ -238,18 +238,22 @@
   align-items: stretch;
   justify-content: center;
   flex-wrap: wrap;
+  border-radius: 5px;
+  border: 1px solid #3b5998;
 }
 
 .left-about-container {
   width: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-right: 2%;
   text-align: center;
-  border-radius: 5px;
-  border: 1px solid #3b5998;
   padding: 15px;
 }
 
-.left-about-container img {
+.left-about-container div img {
   width: 100%;
   max-width: 200px;
   border-radius: 50%;
@@ -257,14 +261,23 @@
 
 .right-about-container {
   width: 75%;
-  border-radius: 5px;
   padding: 15px;
-  border: 1px solid #3b5998;
 }
 
 .right-about-container a {
   color: #3b5998;
   text-decoration: none;
+}
+
+.contact-container {
+  width: 100%;
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid #3b5998;
+}
+
+.contact-container h2 {
+  margin: 0px;
 }
 
 @media all and (max-width: 768px) {

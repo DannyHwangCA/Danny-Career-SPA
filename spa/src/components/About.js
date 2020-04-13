@@ -1,19 +1,20 @@
 import React from 'react';
 import profilePicture from '../images/profile-image.jpg';
-import resume from '../assets/danny-hwang-resume.docx';
 
 class About extends React.Component {
     render() {
         return(
             <div className="about-container">
                 <div className="left-about-container">
-                    <img src={profilePicture} alt="profile-image" />
-                    <h3>Danny Hwang</h3>
-                    <h4>
-                        Web Developer<br/>
-                        Frontend Engineer<br/>
-                        Passionate Coder<br/>
-                    </h4>                
+                    <div>
+                        <img src={profilePicture} alt="profile-image" />
+                        <h3>Danny Hwang</h3>
+                        <h4>
+                            Web Developer<br/>
+                            Frontend Engineer<br/>
+                            Passionate Coder<br/>
+                        </h4>
+                    </div>               
                 </div>
                 <div className="right-about-container">
                     <h3>
@@ -22,7 +23,7 @@ class About extends React.Component {
                     <p>
                         I am a Frontend Engineer, Web Developer, and passionate programmer. 
                         <br/><br/>
-                        I work as a Senior Web Developer for <a href="https://www.equilar.com/" target="_blank">Equilar</a>, a financial technology company. 
+                        I am a Senior Web Developer for <a href="https://www.equilar.com/" target="_blank">Equilar</a>, a financial technology company. 
                         I maintain, create, and update multiple web assets for Equilar.com, pardot, and our products. 
                         <br/><br/>
                         I work closely with stakeholders in design, marketing, IT, products, and leadership to code responsive webpages and features that meets & exceed our myriad of business needs.
@@ -30,25 +31,13 @@ class About extends React.Component {
                         My core coding skills include React.js, HTML5, CSS3, Javascript, & Jquery; although, I am always learning new languages and technologies. 
                         <br/><br/>
                         If you have any questions, please feel free to contact me!
-                    </p>
-                    <p>
-                        <b>Contact</b>
-                        <br/>
+                        <br/><br/>
                         <b>Email: </b><a href="mailto: dannyhwangca@gmail.com" target="_blank">dannyhwangca@gmail.com</a>
                         <br/>
                         <b>Phone: </b><a href="tel:6262445621" target="_blank">(626) 244-5621</a>
                         <br/>
                         <b>Location: </b>Greater Los Angeles Area - Eastvale, CA 92880
-                        <br/><br/>
-                        <b>Resume (updated April 2020): </b><a href={resume} target="_blank" download>Download Here</a>
-                        <br/><br/>
-                        <b>Project Links</b>
-                        <br/>
-                        <b>Codepen: </b><a href="https://codepen.io/dannyhwangca" target="_blank">https://codepen.io/dannyhwangca</a>
-                        <br/>
-                        <b>Github: </b><a href="https://github.com/DannyHwangCA" target="_blank">https://github.com/DannyHwangCA</a> 
                     </p>
-                    
                 </div>
             </div>
         )

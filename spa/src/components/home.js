@@ -3,7 +3,7 @@ import React from 'react';
 class Home extends React.Component {
     render () {
         return (
-            <div className="home-outer-container">
+            <div className="home-outer-container animated fadeIn">
                 <div className="home-intro">
                     <h3>Danny Shyh Ru Hwang. Web developer. Frontend engineer.</h3>
                     <p>Hello! Welcome to my responsive React Information SPA.</p>

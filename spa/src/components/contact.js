@@ -7,7 +7,7 @@ import { faLinkedin, faGithubSquare, faCodepen} from '@fortawesome/free-brands-s
 class Contact extends React.Component {
     render() {
         return ( 
-            <div className="contact-container">
+            <div className="contact-container animated fadeIn">
                 <div className="left-contact-container">
                     <div className="left-contact-container-icon project-icon">
                         <a href="mailto:dannyhwangca@gmail.com" target="_blank">
@@ -17,7 +17,7 @@ class Contact extends React.Component {
                     </div>
                     <div className="left-contact-container-icon project-icon">
                         <a href="https://www.linkedin.com/in/dannyhwangca/" target="_blank">
-                            <FontAwesomeIcon icon={faLinkedin} /><i class="fab fa-linkedin"></i>
+                            <FontAwesomeIcon icon={faLinkedin} />
                             <h3>Linkedin</h3>
                         </a>
                     </div>

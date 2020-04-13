@@ -6,6 +6,7 @@ import Contact from './Contact';
 import Projects from './Projects';
 import About from './About';
 import Spa from './Spa';
+import { fadeIn } from 'animate.css'
 
 class App extends React.Component {
   constructor(props) {
@@ -17,7 +18,8 @@ class App extends React.Component {
       about: false,
       contact: false,
       webpage: false,
-      projectArray: []
+      projectArray: [],
+      display: true
     }
     this.renderHome = this.renderHome.bind(this);
     this.renderProject = this.renderProject.bind(this);
@@ -60,27 +62,29 @@ class App extends React.Component {
   }
 
   render() {
+
     return (
-      <div className="master-outer-div">
+      <div className="master-outer-div animated fadeIn">
         <div className="master-inner-div" style={{"align-items": this.state.align}}>
           <div className="left-outer-container">
             <div className="left-inner-container">
-              <Nav 
-                renderHome={this.renderHome} 
-                renderProject={this.renderProject}
-                renderAbout={this.renderAbout}
-                renderContact={this.renderContact}
-                renderWebpage={this.renderWebpage}
-              />
+            
+                <Nav 
+                  renderHome={this.renderHome} 
+                  renderProject={this.renderProject}
+                  renderAbout={this.renderAbout}
+                  renderContact={this.renderContact}
+                  renderWebpage={this.renderWebpage}
+                />
             </div>
           </div>
           <div className="right-outer-container">
             <div className="right-inner-container">
-              {this.state.home ? <Home /> : null}
-              {this.state.projects ? <Projects projects={this.state.projectArray}/> : null}
-              {this.state.about ? <About /> : null}
-              {this.state.contact ? <Contact /> : null}
-              {this.state.webpage ? <Spa /> : null}
+                  {this.state.home ? <Home /> : null}
+                  {this.state.projects ? <Projects projects={this.state.projectArray}/> : null}
+                  {this.state.about ? <About /> : null}
+                  {this.state.contact ? <Contact /> : null}
+                  {this.state.webpage ? <Spa /> : null}
             </div>
           </div>
         </div>

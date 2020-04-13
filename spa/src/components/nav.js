@@ -8,7 +8,7 @@ class Nav extends React.Component {
     render () {
         return (
             
-            <div className="nav-container">
+            <div className="nav-container animated fadeIn">
                 <div onClick={this.props.renderHome} className="single-nav-icon home-icon">
                     <FontAwesomeIcon icon={faHSquare} />
                     <h3>Home</h3>

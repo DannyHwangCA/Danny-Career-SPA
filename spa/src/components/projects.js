@@ -28,7 +28,7 @@ class Projects extends React.Component {
             </div>
         ));
         return(
-            <div className="project-container">
+            <div className="project-container animated fadeIn">
                 <div className="project-summary-container">
                     <h2>
                         Projects and Pens

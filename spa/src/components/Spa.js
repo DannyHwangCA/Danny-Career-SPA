@@ -3,7 +3,7 @@ import React from 'react';
 class Spa extends React.Component {
     render() {
         return(
-            <div className="main-container">
+            <div className="main-container animated fadeIn">
                 <h2>About SPA</h2>
                 <h4>
                     This SPA renders a single unique component for each Nav topic. Below notes some techniques used.

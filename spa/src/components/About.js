@@ -4,7 +4,7 @@ import profilePicture from '../images/profile-image.jpg';
 class About extends React.Component {
     render() {
         return(
-            <div className="about-container">
+            <div className="about-container animated fadeIn">
                 <div className="left-about-container">
                     <div>
                         <img src={profilePicture} alt="profile-image" />

@@ -269,6 +269,14 @@
   text-decoration: none;
 }
 
+.right-about-container h3 {
+  margin-top: 0px;
+}
+
+.right-about-container p {
+  margin-bottom: 0px;
+}
+
 .contact-container {
   width: 100%;
   display: flex;
@@ -301,6 +309,7 @@
   width: 49%;
   text-align: center;
   cursor: pointer;
+  margin-bottom: 15px;
 }
 
 .left-contact-container-icon svg {
@@ -318,6 +327,7 @@
 
 .left-contact-container-icon h3 {
   margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .bottom-left-icon-adjust {
@@ -336,6 +346,18 @@
   .master-inner-div {
     padding: 25px;
   }
+  .home-intro {
+    margin-top: 15px;
+  }
+  .project-summary-container {
+    margin-top: 15px;
+  }
+  .project-item  {
+    width: 100%;
+  }
+  .main-container {
+    margin-top: 15px;
+  }
   .left-outer-container {
     width: 100%;
   }
@@ -348,6 +370,22 @@
   }
   .right-outer-container {
     width: 100%;
+  }
+  .right-inner-container {
+    margin-top: 15px;
+  }
+  .left-about-container {
+    width: 100%;
+  }
+  .right-about-container {
+    width: 100%;
+  }
+  .left-contact-container {
+    width: 100%;
+  }
+  .right-contact-container {
+    width: 100%;
+    margin-top: 25px;
   }
   .single-nav-icon {
     width: 20%;

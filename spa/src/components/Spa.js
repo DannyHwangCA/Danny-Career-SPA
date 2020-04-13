@@ -40,6 +40,26 @@ class Spa extends React.Component {
                         Project images imported from images folder and required for webpack.
                     </li>
                 </ul>
+                <p>
+                    <b>
+                        About
+                    </b>
+                </p>
+                <ul>
+                    <li>
+                        Used Flexbox positioning to make responsive dual containers.
+                    </li>
+                </ul>
+                <p>
+                    <b>
+                        Contact
+                    </b>
+                </p>
+                <ul>
+                    <li>
+                        Imported FontAwesome Brand SVGs and files into flexbox responsive containers.
+                    </li>
+                </ul>
             </div>
         )
     }

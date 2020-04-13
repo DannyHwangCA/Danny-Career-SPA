@@ -271,6 +271,10 @@
 
 .contact-container {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   border-radius: 5px;
   padding: 15px;
   border: 1px solid #3b5998;
@@ -278,6 +282,26 @@
 
 .contact-container h2 {
   margin: 0px;
+}
+
+.left-contact-container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-contact-container {
+  width: 50%;
+}
+
+.image-contact-container svg {
+  width: 100%;
+}
+
+.right-contact-container {
+  width: 60%;
 }
 
 @media all and (max-width: 768px) {

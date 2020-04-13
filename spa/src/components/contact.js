@@ -10,20 +10,28 @@ class Contact extends React.Component {
             <div className="contact-container">
                 <div className="left-contact-container">
                     <div className="left-contact-container-icon project-icon">
-                        <FontAwesomeIcon icon={faEnvelopeSquare} />
-                        <h3>Email</h3>
+                        <a href="mailto:dannyhwangca@gmail.com" target="_blank">
+                            <FontAwesomeIcon icon={faEnvelopeSquare} />
+                            <h3>Email</h3>
+                        </a>
                     </div>
                     <div className="left-contact-container-icon project-icon">
-                        <FontAwesomeIcon icon={faLinkedin} /><i class="fab fa-linkedin"></i>
-                        <h3>Linkedin</h3>
+                        <a href="https://www.linkedin.com/in/dannyhwangca/" target="_blank">
+                            <FontAwesomeIcon icon={faLinkedin} /><i class="fab fa-linkedin"></i>
+                            <h3>Linkedin</h3>
+                        </a>
                     </div>
                     <div className="left-contact-container-icon project-icon bottom-left-icon-adjust">
-                        <FontAwesomeIcon icon={faGithubSquare} />
-                        <h3>Github</h3>
+                        <a href="https://github.com/DannyHwangCA" target="_blank">
+                            <FontAwesomeIcon icon={faGithubSquare} />
+                            <h3>Github</h3>
+                        </a>
                     </div>
                     <div className="left-contact-container-icon project-icon bottom-left-icon-adjust">
-                        <FontAwesomeIcon icon={faCodepen} />
-                        <h3>Codepen</h3>
+                        <a href="https://codepen.io/dannyhwangca" target="_blank">
+                            <FontAwesomeIcon icon={faCodepen} />
+                            <h3>Codepen</h3>
+                        </a>
                     </div>
                 </div>
                 <div className="right-contact-container">

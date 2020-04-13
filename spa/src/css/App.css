@@ -285,23 +285,51 @@
 }
 
 .left-contact-container {
-  width: 40%;
+  width: 28%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
+  margin-right: 2%;
 }
 
 .image-contact-container {
   width: 50%;
 }
 
-.image-contact-container svg {
-  width: 100%;
+.left-contact-container-icon {
+  width: 49%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.left-contact-container-icon svg {
+  font-size: 4em;
+  color: #3b5998;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.left-contact-container-icon:hover svg {
+  color: #8b9dc3;
+}
+
+.left-contact-container-icon h3 {
+  margin-top: 10px;
+}
+
+.bottom-left-icon-adjust {
+  margin-bottom: 0px;
 }
 
 .right-contact-container {
-  width: 60%;
+  width: 70%;
+}
+
+.right-contact-container p {
+  margin-bottom: 0px;
 }
 
 @media all and (max-width: 768px) {

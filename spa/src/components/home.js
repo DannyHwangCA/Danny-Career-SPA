@@ -18,7 +18,7 @@ class Home extends React.Component {
                         <h3>Notable Libraries Used:</h3>
                         <ul>
                             <li>React</li>
-                            <li>Jquery</li>
+                            <li>Animate.css</li>
                             <li>Webpack</li>
                             <li>Babel</li>
                         </ul>

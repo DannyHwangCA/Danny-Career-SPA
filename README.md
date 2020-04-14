@@ -9,7 +9,7 @@ Hosted on AWS (development server): http://dannyspa-spa.s3-website-us-west-2.ama
 This SPA renders a single unique component for each Nav topic. Below notes some techniques used.
 
 ## Navigation
-1.  Each Nav button uses an imported FontAwesome SVG and CSS3 hover and transition effect.
+1. Each Nav button uses an imported FontAwesome SVG and CSS3 hover and transition effect.
 2. Each nav button uses an onClick event passed from state to props that "setState" a unqiue state object.
 3. A simple ternary is used to determine if the component is rendered or not rendered.
 

@@ -27,7 +27,7 @@ class Home extends React.Component {
                         <h3>Notable Languages Used:</h3>
                         <ul>
                             <li>JSX</li>
-                            <li>Javascript</li>
+                            <li>Vanilla Javascript & ES6</li>
                             <li>HTML5</li>
                             <li>CSS3</li>
                         </ul>

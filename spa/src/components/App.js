@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/App.css';
 import '../css/Single.css';
+import '../css/Blog.css';
 import Nav from './Nav';
 import Home from './Home';
 import Contact from './Contact';

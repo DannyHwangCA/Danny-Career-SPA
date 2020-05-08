@@ -1,4 +1,4 @@
-# Danny Career SPA
+# Danny MyInfo SPA
 
 A React SPA site to host information about me!
 

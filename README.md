@@ -2,7 +2,7 @@
 
 A React SPA site to host information about me!
 
-Hosted on AWS (development server): http://dannyspa-spa.s3-website-us-west-2.amazonaws.com/
+Hosted on Netlify: https://dannyhwang.netlify.app/
 
 ## About This SPA
 

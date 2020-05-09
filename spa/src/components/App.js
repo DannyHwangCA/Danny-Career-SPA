@@ -2,10 +2,10 @@ import React from 'react';
 import '../css/App.css';
 import '../css/Single.css';
 import '../css/Blog.css';
-import Nav from './Nav';
-import Home from './Home';
-import Contact from './Contact';
-import Projects from './Projects';
+import Nav from './nav';
+import Home from './home';
+import Contact from './contact';
+import Projects from './projects';
 import About from './About';
 import Spa from './Spa';
 import { fadeIn } from 'animate.css'
